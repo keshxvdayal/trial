@@ -42,7 +42,7 @@ const Project = () => {
             </div>
             <div className="portfolio__container bd-grid">
                 <div className="portfolio__content mix web">
-                    <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work1.jpg" alt="" className="portfolio__img" /></a>
+                    <a href=" " className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work1.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">Web Development</span>
                         <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
@@ -50,7 +50,7 @@ const Project = () => {
                     </div>
                 </div>
                 <div className="portfolio__content mix web">
-                    <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work2.jpg" alt="" className="portfolio__img" /></a>
+                    <a href=" " className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work2.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">Web Development</span>
                         <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
