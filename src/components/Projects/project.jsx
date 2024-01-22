@@ -1,7 +1,6 @@
 import React from "react";
 import "./project.css";
 import mixitup from "mixitup";
-import Shery from "sheryjs";
 
 const Project = () => {
 
@@ -46,48 +45,48 @@ const Project = () => {
                     <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work1.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">Web Development</span>
-                        <a href="#"><h2 className="">New Portfolio of work done for a client</h2></a>
-                        <a href="#" className="button ">View Details</a>
+                        <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
+                        <a href=" " className="button ">View Details</a>
                     </div>
                 </div>
                 <div className="portfolio__content mix web">
                     <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work2.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">Web Development</span>
-                        <a href="#"><h2 className="">New Portfolio of work done for a client</h2></a>
-                        <a href="#" className="button ">View Details</a>
+                        <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
+                        <a href=" " className="button ">View Details</a>
                     </div>
                 </div>
                 <div className="portfolio__content mix ux">
-                    <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work3.jpg" alt="" className="portfolio__img" /></a>
+                    <a href=" " className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work3.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">UI/UX</span>
-                        <a href="#"><h2 className="">New Portfolio of work done for a client</h2></a>
-                        <a href="#" className="button ">View Details</a>
+                        <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
+                        <a href=" " className="button ">View Details</a>
                     </div>
                 </div>
                 <div className="portfolio__content mix ux">
-                    <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work4.jpg" alt="" className="portfolio__img" /></a>
+                    <a href=" " className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work4.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">UI/UX</span>
-                        <a href="#"><h2 className="">New Portfolio of work done for a client</h2></a>
-                        <a href="#" className="button ">View Details</a>
+                        <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
+                        <a href=" " className="button ">View Details</a>
                     </div>
                 </div>
                 <div className="portfolio__content mix app">
-                    <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work5.jpg" alt="" className="portfolio__img" /></a>
+                    <a href=" " className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work5.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">Mobile App</span>
-                        <a href="#"><h2 className="">New Portfolio of work done for a client</h2></a>
-                        <a href="#" className="button ">View Details</a>
+                        <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
+                        <a href=" " className="button ">View Details</a>
                     </div>
                 </div>
                 <div className="portfolio__content mix app">
-                    <a href="#" className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work6.jpg" alt="" className="portfolio__img" /></a>
+                    <a href=" " className="image"><img src="https://raw.githubusercontent.com/bedimcode/responsive-portfolio-Clay-Doe/main/assets/img/work6.jpg" alt="" className="portfolio__img" /></a>
                     <div className="portfolio__data">
                         <span className="">Mobile App</span>
-                        <a href="#"><h2 className="">New Portfolio of work done for a client</h2></a>
-                        <a href="#" className="button ">View Details</a>
+                        <a href=" "><h2 className="">New Portfolio of work done for a client</h2></a>
+                        <a href=" " className="button ">View Details</a>
                     </div>
                 </div>
             </div>
