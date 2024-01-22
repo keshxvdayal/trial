@@ -63,7 +63,7 @@ const Home = () => {
                                 <h1>Hey!! </h1>
                                 <h1>a </h1>
                                 <h1> </h1>
-                                <h1></h1>
+                                <h1> </h1>
                             </div>
                             <div className="elem">
                                 <h1>My Name is</h1>
