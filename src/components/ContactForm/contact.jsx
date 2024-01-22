@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import "./contact.css";
 import emailjs from '@emailjs/browser';
-import Instagram from "/Users/jarvis/Desktop/Porfolio/KESHAV'S portfolio/Portfolio/src/components/ContactForm/Instagram.png"
-import Github from "/Users/jarvis/Desktop/Porfolio/KESHAV'S portfolio/Portfolio/src/components/ContactForm/github.png"
-import Linkedin from "/Users/jarvis/Desktop/Porfolio/KESHAV'S portfolio/Portfolio/src/components/ContactForm/linkedin.png"
+import Instagram from "../ContactForm/Instagram.png"
+import Github from "../ContactForm/github.png"
+import Linkedin from "../ContactForm/linkedin.png"
 
 export const ContactUs = () => {
     const form = useRef();
