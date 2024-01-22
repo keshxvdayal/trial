@@ -3,7 +3,7 @@ import "./Home.css";
 import { Expo } from "gsap/all";
 import gsap from "gsap";
 import { Link } from 'react-router-dom';
-import About from "/Users/jarvis/Desktop/Porfolio/KESHAV'S portfolio/Portfolio/src/components/About/About.jsx";
+// import About from "/Users/jarvis/Desktop/Porfolio/KESHAV'S portfolio/Portfolio/src/components/About/About.jsx";
 
 const Home = () => {
     var elements = document.querySelectorAll(".elem");
@@ -50,7 +50,7 @@ const Home = () => {
                 <div id="working">
                     <div id="nav">
                         <div id="nleft">
-                            <a href={About}>About</a>
+                            <a href="#">About</a>
                             <a href="#">Products</a>
                         </div>
                         <div id="nright">
