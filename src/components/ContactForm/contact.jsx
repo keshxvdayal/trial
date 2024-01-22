@@ -43,7 +43,7 @@ export const ContactUs = () => {
                         </ul>
                     </div>
                     <ul className="sci">
-                       <li><a href="https://www.instagram.com/keshxvdayal/?hl=el"><img src={Instagram} width={60} height={60} /></a></li>
+                       <li><a href="https://www.instagram.com/keshxvdayal/?hl=el"><img src={Instagram} alt="Instagram.png" width={60} height={60} /></a></li>
                         <li><a href="https://github.com/keshxvdayal" ><img src={Github} alt="github.png" width={60} height={60} /></a></li>
                         <li><a href="https://www.linkedin.com/in/keshav-dayal/" ><img src={Linkedin} alt="LinkedIn icon"  width={60} height={60} /></a></li>
                     </ul>
