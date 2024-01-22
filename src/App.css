@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+/* --------------------------------------------------------- */
+/* #GOOGLE FONTS  */
+/* ---------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Jost:wght@400;500;700&family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
+
+/* CSS VARIABLES */
+
+:root{
+    /**
+    colors
+    */
+    --primary-color:  #0080ff;
+    --title-color: #00ffc8;
+    --text-color: hsl(0, 0%, 92%);
+    --bg-color:   #fffcea;
+    --bg-color-alt: hsl(0, 0%, 100%);
+    --container-color: hsl(30, 100%, 50%);
+    --border-color: #0080ff;
+    --first-gradient: linear-gradient(
+        0deg, 
+        var(--bg-color-alt) 0%,
+        var(--bg-color) 100%
+    );
+    --second-gradient: linear-gradient(
+        180deg, 
+        var(--bg-color-alt) 0%,
+        var(--bg-color) 100%
+    );
+    --third-gradient: linear-gradient(
+        180deg, 
+        var(--bg-color) 0%,
+        var(--bg-color) 100%
+    );
+    
+    /**
+    typography
+    */
+
+    --body-font:'Jost', sans-serif;
+    --second-font: 'Caveat', cursive;
+
+    --biggest-font-size: 90px;
+    --h1-font-size: 44px;
+    --h2-font-size: 30px;
+    --h3-font-size: 28px;
+    --h4-font-size: 24px;
+    --h5-font-size: 22px;
+    --largest-font-size: 21px;
+    --larger-font-size: 20px;
+    --large-font-size: 18px;
+    --normal-font-size: 16px;
+    --small-font-size: 15px;
+    --smaller-font-size: 14px;
+    --tiny-font-size: 13px;
+
+    /**
+    shadow
+    */
+
+    --shadow: 5px 5px rgb(255 255 255 / 10%);
+
+    /**
+    transitiin
+    */
+
+    --transition: cubic-bezier(0.3, 0, 0,3, 1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button, 
+input,
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    max-height: 1200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+    color: var(--text-color);
+    background-color:#422057FF ;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3{
+    color: var(--title-color);
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+}
+p{
+    line-height: 1.7;
+}
+a{
+    text-decoration: none;
+}
+input, 
+textarea,
+button{
+    border:none;
+    outline: none;
+    background: transparent;
+}
+button{
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* RESUABLE CSS CLASSES */
+.container{
+    align-items: center;
+    justify-content: center;
+    max-width: 2500px;
+    margin-inline: auto;
+    padding-inline: 12px;
 }

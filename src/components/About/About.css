@@ -1,0 +1,49 @@
+.About {
+    display: flex;
+    align-items: flex-start; /* changed from 'start' to 'flex-start' */
+    font-family: var(--h2-font-size);
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 0 8vw; /* changed '0vw 8vw' to '0 8vw' for brevity */
+    color: white;
+    background-color: rgb(52, 52, 52);
+    height: 100vh;
+    width: 100vw;
+    border: 15px solid #ffff00;
+}
+  
+  .About h2 {
+    margin-bottom: 3vw;
+    font-weight: 600;
+    letter-spacing: 8px;
+    color: white;
+  }
+  
+  .About h1 {
+    font-weight: 100;
+    line-height: 1.3;
+    width: 90%;
+    font-size: 4vw;
+    font-weight: 700;
+    color: #ffff00;
+  }
+  @media screen and (max-width: 767px){
+    .About{
+      padding: 30px;
+      height: 60vh;
+      width: 100%;
+      border: 10px solid yellow;
+      align-items: center;
+    }
+    .about_me, .about_heading{
+      padding: 10px;
+    }
+    .About h1 {
+      font-weight: 100;
+      line-height: 1.3;
+      width: 90%;
+      font-size: 6vw;
+      color: #fef4f469;
+    }
+  }

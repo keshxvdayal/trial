@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Jost:wght@400;500;700&family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
+
+.container_service{
+    height: 100vh;
+    border: 20px solid rgb(247, 97, 119);
+    background-color: rgb(229, 249, 143);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.container_service h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4.4rem;
+    color: rgb(255, 0, 132);
+    margin-bottom: 25px;
+    font-family: 'Caveat', cursive;
+  }
+
+.container_service .services{
+  width: 80%;
+    justify-content: space-around;
+    position: relative;
+    left: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container_service .services .card{
+    width: 330px;
+    text-align: center;
+    background: rgb(247, 97, 119);
+    font-size: 1.4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    box-shadow: 8px 8px 0px 2px black;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.container_service .services .card:hover{
+    background: var(--bg-color);
+    color: black;
+}
+
+.container_service .services .card .content{
+    transition: 0.3s;
+}
+
+.container_service .services .card:hover .content{
+    transform: scale(1.07);
+}
+
+.container_service .services .card .content .icon{
+    padding: 5px 0;
+    color: white;
+}
+
+.container_service .services .card .content .icon i{
+    font-size: 40px;
+}
+
+.container_service .services .card:hover .content .title{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.container_service .services .card .content .title{
+    padding: 5px 0;
+    font-size: 1.7rem;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 238, 0);
+    transition: 0.3s;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 767px) {
+  .container_service{
+    height: 100%; 
+  }
+  .container_service h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .container_service .services .card {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px 10px;
+  }
+
+  .container_service .services .card .content .icon i {
+    font-size: 32px;
+  }
+
+  .container_service .services .card .content .title {
+    font-size: 18px;
+  }
+}
