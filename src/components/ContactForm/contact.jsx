@@ -53,7 +53,6 @@ export const ContactUs = () => {
                     <form className="formBox" href=" " ref={form} onSubmit={sendEmail}>
                         <div className="inputBox w50" name="First Name">
                             <h3 className='form-h3'>First Name:</h3>
-                        {/* <span>First Name</span> */}
                         <input type="text" name="user_name"/>
                         </div>
                         <div className="inputBox w50">
@@ -73,7 +72,6 @@ export const ContactUs = () => {
                         </div>
                     </form>
                     </div>
-                {/* </div> */}
             </div>
         </section>
     );
