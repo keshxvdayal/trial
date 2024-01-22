@@ -34,7 +34,7 @@ export const ContactUs = () => {
                             </li>
                             <li>
                                 <span><img src="" alt="Mail icon" /></span>
-                                <span><a href="https://keshavdayal205@gmail.com" target='_blank'>keshavdayal205@gmail.com</a></span>
+                                <span><a href="https://keshavdayal205@gmail.com" rel=”noopener noreferrer”>keshavdayal205@gmail.com</a></span>
                             </li>
                             <li>
                                 <span><img src="#" alt="Call icon" /></span>
@@ -43,9 +43,9 @@ export const ContactUs = () => {
                         </ul>
                     </div>
                     <ul className="sci">
-                       <li><a href="https://www.instagram.com/keshxvdayal/?hl=el"><img src={Instagram} width={60} height={60} target='_blank'/></a></li>
-                        <li><a href="https://github.com/keshxvdayal" ><img src={Github} alt="github.png" width={60} height={60} target='_blank'/></a></li>
-                        <li><a href="https://www.linkedin.com/in/keshav-dayal/" ><img src={Linkedin} alt="LinkedIn icon"  width={60} height={60} target='_blank'/></a></li>
+                       <li><a href="https://www.instagram.com/keshxvdayal/?hl=el"><img src={Instagram} width={60} height={60} rel=”noopener noreferrer”/></a></li>
+                        <li><a href="https://github.com/keshxvdayal" ><img src={Github} alt="github.png" width={60} height={60} rel=”noopener noreferrer”/></a></li>
+                        <li><a href="https://www.linkedin.com/in/keshav-dayal/" ><img src={Linkedin} alt="LinkedIn icon"  width={60} height={60} rel=”noopener noreferrer”/></a></li>
                     </ul>
                 </div>
                 <div className="contactForm">
