@@ -1,8 +1,7 @@
-import React, { useLayoutEffect } from "react";
+import React from "react";
 import "./Home.css";
 import { Expo } from "gsap/all";
 import gsap from "gsap";
-import { Link } from 'react-router-dom';
 // import About from "/Users/jarvis/Desktop/Porfolio/KESHAV'S portfolio/Portfolio/src/components/About/About.jsx";
 
 const Home = () => {
@@ -50,12 +49,12 @@ const Home = () => {
                 <div id="working">
                     <div id="nav">
                         <div id="nleft">
-                            <a href="#">About</a>
-                            <a href="#">Products</a>
+                            <a href=" ">About</a>
+                            <a href=" ">Products</a>
                         </div>
                         <div id="nright">
-                            <a href="#">Services</a>
-                            <a href="#">Contact</a>
+                            <a href=" ">Services</a>
+                            <a href=" ">Contact</a>
                         </div>
                     </div>
                     <div id="hero">
