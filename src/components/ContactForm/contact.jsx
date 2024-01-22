@@ -43,14 +43,14 @@ export const ContactUs = () => {
                         </ul>
                     </div>
                     <ul className="sci">
-                       <li><a href="https://www.instagram.com/keshxvdayal/?hl=el"><img src={Instagram} alt="Instagram.png" width={60} height={60} /></a></li>
+                       <li><a href="https://www.instagram.com/keshxvdayal"><img src={Instagram} alt="Instagram.png" width={60} height={60} /></a></li>
                         <li><a href="https://github.com/keshxvdayal" ><img src={Github} alt="github.png" width={60} height={60} /></a></li>
                         <li><a href="https://www.linkedin.com/in/keshav-dayal/" ><img src={Linkedin} alt="LinkedIn icon"  width={60} height={60} /></a></li>
                     </ul>
                 </div>
                 <div className="contactForm">
                     <h2>Send a Message</h2>
-                    <form className="formBox" ref={form} onSubmit={sendEmail}>
+                    <form className="formBox" href=" " ref={form} onSubmit={sendEmail}>
                         <div className="inputBox w50" name="First Name">
                             <h3 className='form-h3'>First Name:</h3>
                         {/* <span>First Name</span> */}
